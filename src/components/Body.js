@@ -4,8 +4,8 @@ const Body = () => {
       <div style={styles.card}>
         <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>Oleh Fedkiv</h2>
+          <p style={styles.position}>Senior Software engineer</p>
         </div>
       </div>
     </main>
@@ -47,9 +47,10 @@ const styles = {
     margin: "0",
   },
   position: {
-    fontSize: "0.9em",
+    fontSize: "0.8em",
     color: "#2964fbff",
     margin: "0.5em 0 0 0",
+    whiteSpace: "nowrap",
   },
 };
 
