@@ -1,5 +1,3 @@
-import React from "react";
-
 const Body = () => {
   return (
     <main style={styles.body}>
@@ -18,6 +16,8 @@ const styles = {
   body: {
     display: "flex",
     flexWrap: "wrap",
+    justifyContent: "center",
+    alignItems: "center",
   },
   card: {
     width: "150px",
@@ -48,7 +48,7 @@ const styles = {
   },
   position: {
     fontSize: "0.9em",
-    color: "#6a0dad", // Same purple color as header
+    color: "#2964fbff",
     margin: "0.5em 0 0 0",
   },
 };
