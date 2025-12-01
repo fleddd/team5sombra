@@ -7,6 +7,9 @@ const Body = () => {
           <h2 style={styles.name}>Oleh Fedkiv</h2>
           <p style={styles.position}>Senior Software engineer</p>
         </div>
+      </div>
+      <div style={styles.card}>
+        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Denys Khrupa</h2>
           <p style={styles.position}>Team Lead</p>
