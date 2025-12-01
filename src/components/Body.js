@@ -18,7 +18,7 @@ const Body = () => {
     </main>
   );
 };
-
+// test merge conflicts 1
 const styles = {
   body: {
     display: "flex",
