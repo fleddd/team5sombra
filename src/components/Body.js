@@ -18,6 +18,9 @@ const Body = () => {
     </main>
   );
 };
+
+// merge-conflict-1-b
+
 // test merge conflicts 1
 const styles = {
   body: {
