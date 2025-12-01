@@ -19,6 +19,8 @@ const Body = () => {
   );
 };
 
+// merge-conflict-1-b
+
 const styles = {
   body: {
     display: "flex",
