@@ -29,6 +29,10 @@ const Body = () => {
 // merge-conflict-1-b
 
 // test merge conflicts 1
+
+
+// test merge conflicts 2
+
 const styles = {
   body: {
     display: "flex",
