@@ -2,21 +2,21 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/fedkiv-img.jpg"} alt="Oleh Fedkiv" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Oleh Fedkiv</h2>
           <p style={styles.position}>Senior Software engineer</p>
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/khrupa-img.jpg"} alt="Denys Khrupa" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Denys Khrupa</h2>
           <p style={styles.position}>Team Lead</p>
         </div>
       </div>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/shnaider-img.jpg"} alt="Denys Shnaider" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Denys Shnaider</h2>
           <p style={styles.position}>CEO Sombra</p>
@@ -29,6 +29,10 @@ const Body = () => {
 // merge-conflict-1-b
 
 // test merge conflicts 1
+
+
+// test merge conflicts 2
+
 const styles = {
   body: {
     display: "flex",
